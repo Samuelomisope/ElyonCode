@@ -3,28 +3,36 @@ const testimonials = [
     {
         name: "Alphonso Gideon Oluwatimilehin",
         role: "Beginner",
-        image: "",
+        image: "/3.jpg",
         content: "I really love this. It is very fast and also reliable."
     },
 
     {
         name: "Ojebode Adedamola Oluwapelumi",
-        role: "Senior Developr",
-        image: "4.jpg",
+        role: "Senior Developer",
+        image: "/4.jpg",
         content: "Our development velocity increased by 200% since adopting this platform. It very fast and reliable."
     },
 
     {
-        name: "Samuel Omisope Oluwafemi",
+        name: "Ayeyemi Adeyinka",
         role: "CTO",
-        image: "",
+        image: "/2.jpg",
         content: "The automated testing and debugging features are game-changer. It makes our work easier and faster."
     },
 
+    
     {
         name: "Damilola Omisope",
         role: "Senior Developer",
-        image: "",
+        image: "/5.jpg",
+        content: "It is very fast and also reliable."
+    },
+
+     {
+        name: "Omisope Ouwafunmilayo",
+        role: "Senior Developer",
+        image: "/1.jpg",
         content: "It is very fast and also reliable."
     },
 
@@ -89,5 +97,5 @@ export default function Testimonials() {
             </div>
             </section>
 
-    )
+    );
 }
