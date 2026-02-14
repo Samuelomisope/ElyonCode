@@ -4,21 +4,21 @@ const testimonials = [
         name: "Alphonso Gideon Oluwatimilehin",
         role: "Beginner",
         image: "/3.jpg",
-        content: "I really love this. It is very fast and also reliable."
+        content: "I really love this. It is very fast and also reliable.",
     },
 
     {
         name: "Ojebode Adedamola Oluwapelumi",
         role: "Senior Developer",
         image: "/4.jpg",
-        content: "Our development velocity increased by 200% since adopting this platform. It very fast and reliable."
+        content: "Our development velocity increased by 200% since adopting this platform. It very fast and reliable.",
     },
 
     {
         name: "Ayeyemi Adeyinka",
         role: "CTO",
         image: "/2.jpg",
-        content: "The automated testing and debugging features are game-changer. It makes our work easier and faster."
+        content: "The automated testing and debugging features are game-changer. It makes our work easier and faster.",
     },
 
     
@@ -26,14 +26,14 @@ const testimonials = [
         name: "Damilola Omisope",
         role: "Senior Developer",
         image: "/5.jpg",
-        content: "It is very fast and also reliable."
+        content: "It is very fast and also reliable.",
     },
 
      {
         name: "Omisope Ouwafunmilayo",
         role: "Senior Developer",
         image: "/1.jpg",
-        content: "It is very fast and also reliable."
+        content: "It is very fast and also reliable.",
     },
 
     
@@ -76,8 +76,8 @@ export default function Testimonials() {
                                 <p className="text-white text-base sm:text-lg leading-relaxed mb-3 sm:mb-4">{testimonial.content}</p>
                                 <div
                                 className="flex items-center space-x-2 sm:space-x-3"
-                                ><img src="{testimonial.image}"
-                                 alt="{testimonial.name}" 
+                                ><img src={testimonial.image}
+                                 alt={testimonial.name} 
                                  className="w-10 h-10 sm:h-12 rounded-full object-cover" 
                                  />
                                 <div>
