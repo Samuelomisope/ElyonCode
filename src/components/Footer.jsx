@@ -68,11 +68,11 @@ export default function Footer() {
               </div>
               <span className="text-lg font-bold sm:text-xl">
                 <span className="text-white">Elyon</span>
-                <span className="text-blue-400">Flow</span>
+                <span className="text-blue-400">Code</span>
               </span>
             </div>
             <p className="text-gray-400 text-sm sm:text-base mb-4 sm:mb-6 max-w-xs mx-auto">
-              ElyonFlow is a platform for developers to build and deploy
+              ElyonCode is a platform for developers to build and deploy
               applications using AI-powered tools and automation. Built for
               modern teams.
             </p>
